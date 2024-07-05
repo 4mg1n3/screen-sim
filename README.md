@@ -5,3 +5,4 @@
 # Usage
 
 - Add your pixels in the list, change the update_screen function and run the program (space bar stops it)
+- The example is supposed to be some sort of rotating 3D shape
