@@ -1,6 +1,7 @@
 import time
 import tkinter as tk
 import math
+import win32api
 
 screen = [[0 for _ in range(32)] for _ in range(32)]
 screen_str = ""
@@ -104,7 +105,7 @@ def update_screen():
 def main():
     global screen
 
-    while True:
+    while not win32api.GetAsyncKeyState(0x20):
         update_screen()
         draw_on_canvas()
         window.update()
