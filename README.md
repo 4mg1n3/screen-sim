@@ -1,6 +1,6 @@
 # Screen sim
 
-- Screen sim's purpose is to facilitate the creation of cool graphical program on [MattBatwings's](https://github.com/mattbatwings) redstone computer.
+- Screen sim's purpose is to facilitate the creation of cool graphical program on [MattBatwings's](https://github.com/mattbatwings) redstone computer by providing a testing environment.
 
 # Usage
 
