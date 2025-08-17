@@ -7,7 +7,7 @@ screen = [[0 for _ in range(32)] for _ in range(32)]
 screen_str = ""
 
 window = tk.Tk()
-window.title("LED Matrix")
+window.title("Screen")
 window.geometry("640x640")
 window.configure(bg='black')
 
